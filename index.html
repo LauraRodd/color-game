@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- STYLES AND FONTS -->
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Color Game</title>
+</head>
+<body>
+
+<!-- HEADER SECTION -->
+
+<div class="container">
+    <header>
+        <h1>
+            The great
+            <br>
+            <span id="colorDisplay">RGB</span>
+            <br>
+            Guessing Game
+        </h1>
+    </header>
+    
+<!-- NAVIGATION MENU SECTION -->
+
+    <nav class="nav-bar-container">
+        <div class="nav-bar-items">
+            <button class="btn" id="reset-btn">New Colors</button>
+            <span id="result"></span>
+            <button class="btn mode" id="easy">Easy</button>
+            <button class="btn mode selected" id="hard">Hard</button>
+        </div>    
+    </nav>
+        
+<!-- GRID SECTION -->
+
+    <main class="grid-container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </main>
+</div>
+<!-- SCRIPT FILES -->
+<script type="text/javascript" src="../Color Game/colorGame.js"></script>
+
+</body>
+</html>
