@@ -7,3 +7,5 @@ An interactive app to practice knowledge of RPG colors.
 - Vanilla JavaScript
 - HTML
 - CSS
+
+## View [live](https://codepen.io/laura-rodd/full/rNOoRqw)
